@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <p>Ola mundo!</p>
+    <form id="myForm">
+        <label for="userInput">Adicionar Jogador Caro</label>
+        <input type="text" id="adicionarjogador" name="adicionarjogador">
+        <button type="button" onclick="adicionarJogador()">Adicionar</button>
+    </form>
+    <table id="minhaTabela" border="1" style="width:100%">
+        <thead>
+            <tr >
+                <th>Pontos</th>
+                <th style="width:40%">Nome</th>
+                <th>Vitórias</th>
+                <th>Empates</th>
+                <th>Derrotas</th>
+                <th>Vacilos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tbody id="tabelaJogadores">
+        </tbody>
+    </table>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
